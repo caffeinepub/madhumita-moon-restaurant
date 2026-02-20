@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Add contact number to restaurant information",
+  "projectName": "Madhumita Moon",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Update the ReservationInfo component to display the contact number +918638918243 alongside the existing contact information",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-8"
+        ],
+        "quotes": [
+          "add contact no- +918638918243."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The contact number +918638918243 is visible in the reservation/contact section",
+        "The phone number formatting is consistent with the existing design style",
+        "The contact information remains easily readable and accessible"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the backend schema or main actor",
+    "Preserve the existing moonlit elegance visual theme and color palette",
+    "Maintain the existing layout structure of the ReservationInfo component"
+  ],
+  "nonGoals": [
+    "Adding click-to-call functionality",
+    "Adding WhatsApp integration",
+    "Creating a contact form",
+    "Adding multiple contact numbers"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

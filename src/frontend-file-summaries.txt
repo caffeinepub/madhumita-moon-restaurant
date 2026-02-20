@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the Home page as the root view.",
+  "frontend/src/pages/Home.tsx": "Homepage component that orchestrates the layout with Header, Hero, MenuSection, Specialties, ReservationInfo, and Footer components with a navy-to-crimson gradient background.",
+  "frontend/src/components/Header.tsx": "Fixed header component with restaurant branding (moon and utensils icons), navigation links, and smooth scroll functionality styled with moonlit elegance theme.",
+  "frontend/src/components/Hero.tsx": "Hero section featuring the restaurant name in elegant golden typography, moonlight visual effects, tagline, and call-to-action buttons for menu exploration and reservations.",
+  "frontend/src/components/MenuSection.tsx": "Menu display component showcasing four categories (Traditional Assamese, Moon Specials, Fresh & Light, Desserts & Beverages) in a responsive card grid with icons and detailed dish descriptions.",
+  "frontend/src/components/Specialties.tsx": "Specialties section highlighting four key differentiators (Expert Chefs, Fresh Ingredients, Signature Dishes, Premium Experience) with icons and descriptions in a responsive grid layout.",
+  "frontend/src/components/ReservationInfo.tsx": "Reservation and contact information section displaying hours of operation, location details, phone number (+91 863 891 8243), and email in styled cards with interactive elements and moonlit elegance theme.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and attribution link to caffeine.ai with UTM tracking parameters and animated heart icon.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks to interact with backend (currently empty as backend has no methods).",
+  "frontend/src/index.css": "Global styles with custom OKLCH color system for moonlit elegance theme (navy, crimson, golden palette), Google Fonts imports (Cinzel, Cormorant Garamond, Inter), and utility classes for the restaurant's visual identity.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom color palette (navy, crimson, golden, cream), custom font families (Cinzel display, Cormorant Garamond serif), and custom shadows for the moonlit elegance theme.",
+  "frontend/index.html": "HTML entry point with meta tags, SEO description, and favicon links referencing the generated app icon at multiple sizes."
+}

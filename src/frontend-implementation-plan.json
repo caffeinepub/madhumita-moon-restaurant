@@ -1,0 +1,23 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add contact number to restaurant information",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Display contact number +918638918243 in ReservationInfo component",
+      "acceptanceCriteria": [
+        "The contact number +918638918243 is visible in the reservation/contact section",
+        "The phone number formatting is consistent with the existing design style",
+        "The contact information remains easily readable and accessible"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ReservationInfo.tsx",
+          "operation": "modify",
+          "description": "Add the contact number +918638918243 to the contact information card. Include the phone number alongside existing contact details (phone/email), maintaining the moonlit elegance theme with golden accents on navy background. Ensure the phone number is formatted consistently with the existing design style and remains easily readable."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no defined methods or state.",
+  "feature_evidence.json": "Feature evidence report documenting a requirement to update ReservationInfo component to display contact number +918638918243.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files describing components, pages, configuration, and styling for the Madhumita Moon Restaurant application.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables defining OKLCH color system for light and dark themes with moonlit elegance palette.",
+  "frontend/index.html": "HTML entry point with SEO meta tags, favicon references, and root div for React application mounting.",
+  "frontend/src/App.tsx": "Root React component that renders the Home page component.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, year, and attribution link to caffeine.ai with UTM tracking and animated heart icon.",
+  "frontend/src/components/Header.tsx": "Fixed header with restaurant branding (moon/utensils icons), navigation buttons for smooth scrolling to menu, specialties, and reservation sections.",
+  "frontend/src/components/Hero.tsx": "Hero section with restaurant name in golden typography, moonlight visual effects, tagline, and CTA buttons for menu and reservations.",
+  "frontend/src/components/MenuSection.tsx": "Menu display component showing four categories (Traditional Assamese, Moon Specials, Fresh & Light, Desserts & Beverages) in responsive card grid with icons and dish descriptions.",
+  "frontend/src/components/ReservationInfo.tsx": "Reservation section displaying hours of operation, location with map link, phone number (+91 863 891 8243), and email in styled cards with icons.",
+  "frontend/src/components/Specialties.tsx": "Specialties section highlighting four key differentiators (Expert Chefs, Fresh Ingredients, Signature Dishes, Premium Experience) with icons in responsive grid.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an ICP backend actor using Internet Identity authentication, automatically invalidating and refetching dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks related to backend functionality; currently empty with no implemented queries.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom color palette (navy, crimson, golden) using OKLCH color space, custom fonts (Cinzel, Cormorant Garamond, Inter), and utility classes for the restaurant theme.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the App component.",
+  "frontend/src/pages/Home.tsx": "Home page component that composes Header, Hero, MenuSection, Specialties, ReservationInfo, and Footer components with a navy-to-crimson gradient background.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom colors (navy, crimson, golden), OKLCH color system, custom fonts, border radius variables, and animation keyframes.",
+  "project_state.json": "Project metadata tracking the restaurant app state with one completed feature (displaying contact number in ReservationInfo) and one pending feature request to add contact number +918638918243."
+}
